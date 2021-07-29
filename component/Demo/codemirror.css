@@ -1,0 +1,15 @@
+.ͼb {
+    color: palette(secondary) !important;
+}
+
+.cm-gutters {
+    background: palette(background, 0.5) !important;
+}
+
+.cm-activeLineGutter {
+    background: palette(background) !important;
+}
+
+.cm-content {
+    min-width: 0rem !important;
+}

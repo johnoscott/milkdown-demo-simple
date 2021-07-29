@@ -1,0 +1,33 @@
+html {
+    width: 100%;
+    min-height: 100vh;
+
+    @mixin scrollbar;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    background: palette(background);
+    font-family: var(--font);
+    transition: all 0.2s ease-in;
+}
+
+#app {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.milkdown {
+    overflow: hidden;
+    @mixin query 72rem {
+        min-height: auto;
+        border-radius: var(--radius);
+        max-width: 72rem;
+    }
+}
