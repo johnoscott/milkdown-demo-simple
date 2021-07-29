@@ -6,7 +6,8 @@
     "start": "vite",
     "build": "vite build",
     "tsc": "tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "nuke": "rimraf node_modules"
   },
   "files": [
     "style"
@@ -21,10 +22,6 @@
     "tslib": "^2.2.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.14.8",
-    "@changesets/cli": "^2.16.0",
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
     "@milkdown/core": "^4.7.1",
     "@milkdown/design-system": "^4.7.1",
     "@milkdown/exception": "^4.7.1",
@@ -92,7 +89,6 @@
     "prosemirror-transform": "^1.3.2",
     "prosemirror-view": "^1.18.2",
     "rimraf": "^3.0.2",
-    "ts-jest": "^26.5.4",
     "typescript": "^4.3.5",
     "vite": "^2.4.4"
   }

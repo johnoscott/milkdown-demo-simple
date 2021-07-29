@@ -18,3 +18,9 @@ deps:
 	@milkdown/plugin-table \
 	@milkdown/react \
 	@milkdown/theme-nord
+
+nuke:
+	rm -rf node_modules
+
+i:
+	pnpm install
